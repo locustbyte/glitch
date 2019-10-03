@@ -1,0 +1,247 @@
+#rss-feeds ul li {
+    list-style: none;
+    color: #9aa5c5;
+    font-family: Oswald, sans-serif;
+    margin-bottom: 18px;
+    font-size: 12px;
+}
+
+#rss-feeds ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#soundbutton {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    text-align: right;
+    bottom: 70px;
+    right: 10px;
+}
+
+#soundbutton img {
+    width: 60px;
+    margin: 0px;
+}
+
+.hide {
+    display: none !important;
+}
+
+h1 {
+    animation: pulse .9s infinite;
+    color: #00ebd4;
+    font-family: Oswald, sans-serif;
+}
+
+.text-container {
+    padding: 1px;
+    margin-top: 500px;
+    position: absolute;
+    z-index: 5;
+    left: 320px;
+}
+.red-bg {
+    /* background: rgba(218, 0, 0, 0.2); */
+    position: absolute;
+    z-index: 99999999;
+}
+
+#resume h3 {
+    animation: none !important;
+    margin: 0px;
+    font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    font-weight: 900 !important;
+}
+
+#resume h3.author{
+    font-size: 90px;
+    animation: none !important;
+    margin: 0px;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: initial;
+    color: #ffaf00;
+    text-shadow: 3px 3px 3px #000;
+    font-family: HelveticaNeue, Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    font-weight: 900 !important;
+}
+
+#resume h3#alias{
+    font-size: 18px;
+    animation: none !important;
+    margin: 0px;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    text-transform: initial;
+    color: #f98b00;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    color: #57585c;
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.35rem;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+    cursor: default;
+    color: #fff;
+}
+#resume h3#occupation{
+    font-size: 18px;
+    animation: none !important;
+    margin: 0px;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    text-transform: initial;
+    color: #f98b00;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    color: #57585c;
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.35rem;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+    cursor: default;
+    color: #fff;
+}
+#resume h3#cursor{
+    font-size: 20px;
+    animation: none !important;
+    margin: 0px;
+    margin-top: 8px;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    text-transform: initial;
+    color: #f98b00;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    color: #57585c;
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.35rem;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+    cursor: default;
+    color: #ffaf00;
+}
+
+
+
+#identity-results,
+#resume,
+#loading-alpha-div,
+#loadingH1,
+#loadingMessage2,
+#message {
+    
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #00ebd4;
+    animation: pulse .9s infinite;
+    margin-bottom: 0px;
+}
+
+i {
+    font-size: 24px;
+    color: #00ebd4;
+    animation: pulse .9s infinite;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.cursor:after {
+    content: "_";
+    opacity: 0;
+    animation: cursor 1s infinite;
+    font-size: 18px;
+    animation: none !important;
+    margin: 0px;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    text-transform: initial;
+    color: #f98b00;
+    font-family: 'Barlow Semi Condensed', Helvetica, Arial, sans-serif;
+    font-size: 0.85em;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    color: #57585c;
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1.35rem;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+    cursor: default;
+    color: #f98b00;
+}
+
+.sign:before {
+    /* content: "> "; */
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loading-alpha-div,
+.img-div {
+    display: none;
+}
+
+
+
+#loadingMessage2 {
+    display: none;
+}
+
+.sub-item {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.inline {
+    display: inline;
+    margin-left: 10px;
+}
